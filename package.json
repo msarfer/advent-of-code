@@ -1,0 +1,14 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch --trace-warnings main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
