@@ -6,9 +6,14 @@
   "type": "module",
   "scripts": {
     "start": "node main.js",
-    "dev": "node --watch --trace-warnings main.js"
+    "dev": "node --watch --trace-warnings main.js",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.29.0"
+  }
 }
